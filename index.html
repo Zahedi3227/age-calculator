@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/stylesheet.css">
+  <!-- <link rel="stylesheet" href="/style.css"> -->
+  <!-- <link href="./output.css" rel="stylesheet"> -->
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <title>Vite App</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="calculator">
+      <h1 class="title"><span>Age Calculator</span></h1>
+      <div class="input-box">
+        <input type="date" id="date">
+        <button onclick="calculateAge()">Calculate</button>
+      </div>
+      <p id="result"></p>
+
+
+      <div class="wrapper-border">
+        <header class="category">Quote of the Day</header>
+        <main class="content">
+          <section class="quote-area">
+            <i class="fas fa-quote-left"></i>
+            <p class="quote">
+              It is rare to find a business partner who is selfless. If you are
+              lucky it happens once in a lifetime.
+            </p>
+            <i class="fas fa-quote-right"></i>
+          </section>
+          <div class="author">
+            <span>—</span>
+            <span class="name">Michael Eisner</span>
+          </div>
+        </main>
+        <div class="buttons">
+          <div class="features">
+            <ul>
+              <li class="speech" aria-label="Speak Quote">
+                <i class="fas fa-volume-up"></i>
+              </li>
+              <li class="copy" aria-label="Copy Quote">
+                <i class="fas fa-copy"></i>
+              </li>
+              <li class="twitter" aria-label="Tweet Quote">
+                <i class="fab fa-twitter"></i>
+              </li>
+            </ul>
+            <button id="btn-quote">New Quote</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="image">
+      <img src="/assets/img/calculator.svg" alt="" srcset="">
+    </div>
+    <footer>
+    </footer>
+  </div>
+
+
+
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
